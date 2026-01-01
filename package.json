@@ -1,0 +1,14 @@
+{
+    "name": "file-deletion-tool",
+    "version": "1.0.0",
+    "description": "This is a simple tool that lets users delete a specific file by simply typing in its name in the input field and clicking on the delete button.",
+    "author": "Saptaparno Chakraborty",
+    "type": "commonjs",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}

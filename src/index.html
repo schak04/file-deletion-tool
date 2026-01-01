@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Deletion Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: hsl(0, 0%, 25%); }
+        input[type="text"] { padding: 5px; width: 200px; border: 1px solid #ccc; }
+        button { cursor: pointer; }
+        button:hover { background-color: hsla(0, 0%, 76%, 0.8); }
+        button:active { transform: scale(0.98); }
+    </style>
+</head>
+<body>
+    <h1>Delete a File</h1>
+
+    <form action="/delete-file" method="POST">
+        <label for="filename">Enter filename (with extension):</label>
+        <input type="text" id="filename" name="filename" required>
+        <button type="submit">Delete File</button>
+        <p id="confirmation-message"></p>
+    </form>
+
+</body>
+</html>
