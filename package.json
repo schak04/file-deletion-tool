@@ -5,6 +5,7 @@
     "author": "Saptaparno Chakraborty",
     "type": "commonjs",
     "main": "src/server.js",
+    "private": true,
     "scripts": {
         "start": "nodemon src/server.js"
     },
